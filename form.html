@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+
+</head>
+<body>
+	<form action="C:\Users\USER\Desktop\portfolio.html">
+		<h1 align="center">APPLICATION FORM</h1>
+	
+		<p><strong>Note:</strong> Form to be complete at least 21 days prior to date</p>
+		<fieldset>
+			<legend>Personal Details</legend>
+			<div>
+				<label for="Name">Name: </label>
+				<input type="text" name="name" placeholder="Full Name">
+			</div>
+			<div>
+				<label for="Address">Home Address: </label>
+				<input type="address" name="Address" placeholder="Home Address">
+			</div>
+			<div>
+				<label for="Email address">Email Address: </label>
+				<input type="email" name="email" placeholder="Email Address" required>
+			</div>
+			<div>
+				<label for="color">Pick your favorite color: </label>
+				<input type="color" name="color">
+			</div>
+			<div>
+				<label for="Age">Age: </label>
+				<input type="number" name="age" min="18" max="30">
+			</div>
+			<div>
+				<label for="Phone number">Phone Number: </label>
+				<input type="text" name="Phone number" placeholder="+234 813 781 4816" disabled="disabled">
+			</div>
+			<div>
+				<label for="fruit">What is your favorite fruit: </label>
+				<input type="text" name="fruit" list="l1">
+      			<datalist id="l1">
+        			<option>Banana</option>
+        			<option>Cherry</option>
+        			<option>Apple</option>
+        			<option>Strawberry</option>
+        			<option>Lemon</option>
+        			<option>Orange</option>
+        			<option>Mango</option>
+        			<option>Pinapple</option>
+        			<option>Other</option>
+      			</datalist>
+			</div>
+			<div>
+				<label>Select your Religion: </label>
+				<select>
+					<option>No Religion</option>
+					<option>Islam</option>
+					<option>Christianity</option>
+				</select>
+			</div>
+			<div>
+				<label for="gender">Gender</label><br>
+				<input type="radio" name="gender" value="Male">Male<br>
+				<input type="radio" name="gender" value="Female"> Female
+
+			</div>
+			<div>
+				<label for="Qualification">Upload your qualification: </label>
+				<input type="file" name="certificate">
+			</div>
+			<button type="Submit">Submit your application</button>
+		</fieldset>
+	</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
